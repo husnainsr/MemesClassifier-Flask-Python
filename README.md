@@ -6,15 +6,14 @@ The solution is designed to be user-friendly and accessible to both technical an
 
 The Memes Classification project is an excellent example of how Machine Learning can be applied to analyze the sentiment of a popular form of social media content. By providing a user-friendly web interface, the solution can be used by anyone to quickly and easily classify their memes, making it an ideal tool for social media managers, marketers, and content creators.
 
-# About Code
-The Memes Classification project includes the following files and folders:
+# # Data Description
 
-app.py: A Flask app file containing the Flask code integrated with the Machine Learning models used in the project.
-index.html: A webpage file containing the user interface for the project.
-models/: A folder containing all the pre-trained models used in the project.
-data.zip: A compressed file containing all the data used in the project.
-canny.py: A file containing the image preprocessing code using Canny filters.
-implementation.py: A file containing all the code used for preprocessing and generating the final output.
-The necessary code used in the Memes Classification project includes:
+#### The Memes Classification project includes the following files and folders:
+-   `app.py`: A Flask app file containing the Flask code integrated with the Machine Learning models used in the project.
+-   `index.html`: A webpage file containing the user interface for the project.
+-   `models/`: A folder containing all the pre-trained models used in the project.
+-   `data.zip`: A compressed file containing all the data used in the project.
+-   `canny.py`: A file containing the image preprocessing code using Canny filters.
+-   `implementation.py`: A file containing all the code used for preprocessing and generating the final output.
+The Memes Classification project uses Flask for web integration and includes pre-trained Machine Learning models for sentiment analysis. The `app.py` file provides Flask integration with the Machine Learning models, and the `index.html` file provides the user interface. The `models/` folder contains all the pre-trained models used in the project, and the `data.zip` file includes all the data used for the project. The `canny.py` file provides the image preprocessing using Canny filters, and the `implementation.py` file contains all the code used for preprocessing and generating the final output.
 
-Flask code used in app.py
